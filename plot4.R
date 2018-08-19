@@ -9,5 +9,5 @@ plot(df$Datetime, df$Sub_metering_1, type="l", ylab="Energy Submetering", xlab="
 lines(df$Datetime, df$Sub_metering_2, type="l", col="red")
 lines(df$Datetime, df$Sub_metering_3, type="l", col="blue")
 legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty=, lwd=2.5, col=c("black", "red", "blue"), bty="n")
-plot(df$Datetime, df$Global_reactive_power, type="l", xlab="datetime", ylab="Global_reactive_power")
+plot(df$Datetime, df$Global_reactive_power, type="l", xlab="datetime", ylab="Global Reactive Power")
 dev.off()
